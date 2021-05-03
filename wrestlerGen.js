@@ -31,8 +31,10 @@ const wrestlerArray = [{
 
 const ppvLocations = ['Wrestlemania', 'Summerslam', 'Survivor Series', 'Royal Rumble', 'King of the Ring', 'No Mercy', 'Backlash'];
 
+//Generates a random index based on length of the array
 const randIndex = (arr) => Math.floor(Math.random() * arr.length);
 
+//Generates a random promo string from elements in the wrestlerArray
 const cutPromo = () => {
     const index = randIndex(wrestlerArray);
     const wrestler = wrestlerArray[index].name
@@ -42,4 +44,5 @@ const cutPromo = () => {
 
     console.log(`${wrestler} you are gonna face ${opponent} at ${location} \nWhat do you have to say to your opponent? \n${saying}`);
 }
+
 cutPromo();
