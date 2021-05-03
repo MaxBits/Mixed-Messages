@@ -1,6 +1,6 @@
-#Mixed Messages
+# Mixed Messages
 A codecademy project
-##Wrester Promo Generator
+## Wrester Promo Generator
 >Randomly generates promo quotes from wrestling superstars
-###Technologies
+### Technologies
 >node.js
